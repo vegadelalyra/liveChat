@@ -1,0 +1,19 @@
+{
+  "name": "realtimechat",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wds": "nodemon WDS/server.js",
+    "fireShip": "nodemon FireShip/server/index.js"
+  },
+  "keywords": [],
+  "author": "Vega de la Lyra <lyradeperseo@gmail.com> (https://www.linkedin.com/in/vegadelalyra/)",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
